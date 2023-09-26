@@ -131,3 +131,44 @@ section {
         letter-spacing: 1px;
  }
 
+.main-text h2 {
+    font-size: var(--h2-font);
+    margin-bottom: 10px;
+}
+
+.main-text p {
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--second-color);
+    line-height: 32px;
+}
+
+.container-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.c-mainbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    border-radius: 10px;
+    height: 90px;
+    background: var(--bg-color);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: all .40s ease;
+}
+
+.container-text p {
+    font-size: var(--p-font);
+    font-weight: 500;
+}
+
+.c-mainbox:hover {
+    transform: translateX(7px);
+    cursor: pointer;
+}
