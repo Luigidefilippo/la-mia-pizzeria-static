@@ -28,6 +28,7 @@ namespace la_mia_pizzeria_static.Controllers
             return View();
         }
 
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
